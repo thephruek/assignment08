@@ -4,11 +4,9 @@ int main()
 {
 	int input, i, j = 0;
 	scanf_s("%d", &input);
-	while (input > 10)
-	{
+	while (input > 10) {
 		i = input;
-		while (i > 10)
-		{
+		while (i > 10) {
 			j += i % 10;
 			i = (i - (i % 10)) / 10;
 		}
